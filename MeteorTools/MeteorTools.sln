@@ -15,9 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteorTools_UnitTests", "MeteorTools\MeteorTools_UnitTests\MeteorTools_UnitTests.csproj", "{713EA8D3-616E-4D2C-A2AF-63435164D62A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteor", "Meteor\Meteor.csproj", "{5B85D34D-D7D0-4F64-878B-7B7C043F84D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteor_IntegrationTests", "Meteor\Meteor_IntegrationTests\Meteor_IntegrationTests.csproj", "{A33E90C7-CB60-40FF-B368-FD0CE377147A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteor_UnitTests", "Meteor\Meteor_UnitTests\Meteor_UnitTests.csproj", "{2ADDAA4A-293D-42E1-ACEB-EEA29D48173F}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
+		SccNumberOfProjects = 7
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
 		SccLocalPath0 = .
@@ -30,6 +36,15 @@ Global
 		SccProjectUniqueName3 = MeteorTools\\MeteorTools_UnitTests\\MeteorTools_UnitTests.csproj
 		SccProjectName3 = MeteorTools/MeteorTools_UnitTests
 		SccLocalPath3 = MeteorTools\\MeteorTools_UnitTests
+		SccProjectUniqueName4 = Meteor\\Meteor.csproj
+		SccProjectName4 = Meteor
+		SccLocalPath4 = Meteor
+		SccProjectUniqueName5 = Meteor\\Meteor_IntegrationTests\\Meteor_IntegrationTests.csproj
+		SccProjectName5 = Meteor/Meteor_IntegrationTests
+		SccLocalPath5 = Meteor\\Meteor_IntegrationTests
+		SccProjectUniqueName6 = Meteor\\Meteor_UnitTests\\Meteor_UnitTests.csproj
+		SccProjectName6 = Meteor/Meteor_UnitTests
+		SccLocalPath6 = Meteor\\Meteor_UnitTests
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +63,18 @@ Global
 		{713EA8D3-616E-4D2C-A2AF-63435164D62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713EA8D3-616E-4D2C-A2AF-63435164D62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713EA8D3-616E-4D2C-A2AF-63435164D62A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B85D34D-D7D0-4F64-878B-7B7C043F84D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B85D34D-D7D0-4F64-878B-7B7C043F84D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B85D34D-D7D0-4F64-878B-7B7C043F84D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B85D34D-D7D0-4F64-878B-7B7C043F84D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33E90C7-CB60-40FF-B368-FD0CE377147A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33E90C7-CB60-40FF-B368-FD0CE377147A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33E90C7-CB60-40FF-B368-FD0CE377147A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33E90C7-CB60-40FF-B368-FD0CE377147A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADDAA4A-293D-42E1-ACEB-EEA29D48173F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADDAA4A-293D-42E1-ACEB-EEA29D48173F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADDAA4A-293D-42E1-ACEB-EEA29D48173F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADDAA4A-293D-42E1-ACEB-EEA29D48173F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
